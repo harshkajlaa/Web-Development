@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Properties </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+
+    <style>
+        /* === Section 1: Text Align === */
+        .box {
+            height: 50px;
+            width: 50px;
+        }
+        #box1 {
+            background-color: yellowgreen;
+            text-align: center;
+        }
+        #box2 {
+            background-color: orange;
+            text-align: right;
+        }
+        #box3 {
+            background-color: red;
+            text-align: left;
+        }
+
+        /* === Section 2: Text Decoration === */
+        #decorated-head {
+            background-color: yellow;
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            text-decoration-color: rgb(133, 85, 22); /* Added missing semicolon */
+        }
+        #link {
+            text-decoration: none;
+        }
+
+        /* === Section 3: Text Transform === */
+        #transformed-head {
+            text-transform: capitalize;
+            /* text-transform: uppercase;
+            text-transform: lowercase;
+            text-transform: none; */
+        }
+        /* === Section 4: Line Height === */
+        #line_height{
+            line-height: 6px;
+        }
+        #line_height1{
+            line-height: 30px;
+        }
+
+        /* === Section 5: Font Property === */
+        #first_font{font-size: 12px; font-weight:300; font-style:italic; }
+        #second_font{font-size: 24px; font-weight:600; font-style:oblique; font-family: cursive}
+        #third_font{font-size: 36px; font-weight:900; font-style:none;}
+
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Text-Align -->
+    <h1>Text-Align property</h1>
+    <div id="box1" class="box"> Box 1 </div>
+    <div id="box2" class="box"> Box 2 </div>
+    <div id="box3" class="box"> Box 3 </div>
+
+    <br><br><hr><br>
+
+    <!-- Section 2: Text Decoration -->
+    <h1>Text Decoration Property</h1>
+    <h2 id="decorated-head">This is my text</h2>
+    <a id="link" href="#">This is a Link </a>
+
+    <br><br><hr><br>
+
+    <!-- Section 3: Text Transform -->
+    <h1>Text Transform Property</h1>
+    <h2 id="transformed-head">This is my text</h2>
+
+    <br><br><hr><br>
+
+    <!-- Section 4: Line Height -->
+     <h1>Line Height</h1>
+     <p id="line_height">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magni sit deserunt itaque, sequi molestiae Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam minima fugiat ipsum soluta culpa amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, corporis. </p>
+     <p id="line_height1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique asperiores quaerat debitis sapiente necessitatibus alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum nesciunt, molestias accusamus qui sed velit cumque optio dolorum! Enim.</p>
+
+     <br><br><hr><br>
+
+    <!-- Section 5: Font Property -->
+    <h1>Font Property</h1>
+    <p id="first_font">This is first font</p>
+    <p id="second_font">This is second font</p>
+    <p id="third_font">This is third font</p>
+    <span class="material-symbols-outlined">
+        home</span>
+
+
+
+</body>
+</html>

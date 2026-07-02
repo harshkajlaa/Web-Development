@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo CLasses and transition properties</title>
+    <style>
+        .pseudo{
+            height:25px;
+            width:150px;
+            background-color:rgb(157, 225, 157);
+            border: 2px solid black;
+            border-radius:10px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+        }
+        .pseudo:hover{
+            height:25px;
+            width: 160px;
+            background-color:indianred;
+        }
+        .pseudo:active{
+            height:25px;
+            width: 160px;
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <button class="pseudo">Learning Pseudo</button>
+</body>
+</html>

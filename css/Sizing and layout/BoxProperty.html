@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box property</title>
+    <style>
+        /* Section:1 Padding Property */
+        * {
+            padding:0;
+            margin:0;
+        }
+        #padded{
+            height:50px;
+            width:50px;
+            padding:5px 10px 15px 20px;
+            background-color: slateblue;
+        }
+
+        /* section:2 Margin property */
+        #margin{
+            height:  50px;
+            width:  50px;
+            padding:2px;
+            margin:5px 5px 5px 5px;
+            background-color: slateblue;
+        }
+
+        /* section:3 Border property */
+        #Border1{
+            height:50px;
+            width:50px;
+            padding:2px;
+            margin:5px;
+            border: 2px solid;
+            border-radius: 6px;
+            box-sizing:border-box;
+            background-color: pink;
+        }
+        #Border2{
+            height:50px;
+            width:50px;
+            padding:2px;
+            margin:5px;
+            border: 2px dashed;
+            border-radius: 16px;
+            box-sizing:content-box;
+            background-color: yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- section 1 : Padding Property -->
+    <div id="padded">padding checker</div>
+    <br><hr><br>
+
+
+    <!-- section 2 : Margin Property -->
+    <div id="margin">Margin checker</div>
+    <br><hr><br>
+
+
+    <!-- section:3 Border property -->
+    <div id="Border1">Border Checker 1</div>
+    <div id="Border2">Border Checker 2</div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display and Position</title>
+    <style>
+        /* Section 1: Display Property */
+        *{margin:0;padding:0;font-size: 20px;}
+    .box{
+        height:100px;
+        width:100px;
+        margin:5px;
+        background-color: olivedrab;
+
+        display: inline-block;
+    }
+    /* #div1{
+        visibility:none;
+    } */
+     *{font-size:30px;}
+     /* Section 2: Relative units */
+     #first{
+        height:100px;width:200px;
+        background-color: royalblue;
+     }
+     #second{
+        height:40%;
+        width:50%;
+        background-color:red;
+     }
+     #first1{
+        height:100px;width:200px;
+        font-size: 10px;
+        background-color: royalblue;
+     }
+     #second1{
+        height:40%;
+        width:50%;
+        font-size: 2.0em;
+        background-color:red;
+     }
+     #first2{
+        height:100px;width:200px;
+        font-size: 10px;
+        background-color: royalblue;
+     }
+     #second2{
+        height:40%;
+        width:50%;
+        font-size: 2.0rem;
+        background-color:red;
+     }
+     #first3{
+        width:50vw;
+        height:50vh;
+        background-color: skyblue;
+     }
+     /* Section 3: Position Property */
+     .box1{
+        width:50px;
+        height:50px;
+        background-color:seagreen;
+        margin:5px;
+    }
+     #box1{position:static} 
+     #box2{
+        position:relative;
+        top:20px;
+        left:60px;
+    }  
+    #box3{
+        position:absolute;
+        top:250px;
+        left:20px;
+    }
+    #box4{
+        position:fixed;
+        top:20px;
+        right:100px;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Display Property -->
+    <div id="div1" class="box">Box1</div>
+    <div id="div2" class="box">Box2</div>
+    <br><hr><br>
+
+    <!-- Section 2: Relative Units -->
+    <h1><u>Relative Units</u></h1><br>
+    <h2>1. Percentage</h2><br>
+    <div id="first">
+        first div 
+        <div id="second">
+            second div
+        </div>
+    </div><br><hr><br>
+
+    <h2>2. em </h2><br>
+    <div id="first1">
+        first div 
+        <div id="second1">
+            second div
+        </div>
+    </div><br><hr><br>
+
+    <h2>3. rem </h2><br>
+    body
+    <div id="first2">
+        first div 
+        <div id="second2">
+            second div
+        </div>
+    </div><br><hr><br>
+
+    <h2>4. vw/vh </h2><br>
+    <div id="first3">
+        first div 
+    </div><br><hr><br>
+
+    <!-- Section 3: Position property -->
+    <h1>Position Property</h1><br>
+    <div id="box1" class="box1">box1</div>
+    <div id="box2" class="box1">box2</div>
+    <div id="box3" class="box1">box3</div>
+    <div id="box4" class="box1">box4</div>
+
+</body>
+</html>
