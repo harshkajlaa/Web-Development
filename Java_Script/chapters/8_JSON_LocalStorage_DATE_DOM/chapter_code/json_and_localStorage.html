@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JSON</title>
+</head>
+<body>
+  <script>
+    // let product={
+    //   name:'tshirt',
+    //   size: 'M',
+    //   price: 899,
+    //   rating :{
+    //     stars: 4.5,
+    //     noOfReviews: 222,
+    //   },
+    // };
+
+    // console.log(typeof product);
+    // console.log(product);
+    // let str=JSON.stringify(product);
+    // console.log(typeof str);
+    // console.log(str);
+
+    // let newProduct=JSON.parse(str);
+    // console.log(typeof newProduct);
+    // console.log(newProduct);
+
+
+
+
+    let product={
+      name:'tshirt',
+      size: 'M',
+      price: 899,
+      rating :{
+        stars: 4.5,
+        noOfReviews: 222,
+      },
+    };
+
+
+    // localStorage.setItem('name','KG Coding');
+    // localStorage.setItem('price','87675');
+
+    // console.log(localStorage.getItem('name'));
+    // localStorage.setItem('product',JSON.stringify(product));
+    // let product2=JSON.parse(localStorage.getItem('product'));
+    // console.log(product2);
+
+    localStorage.removeItem('price');
+    localStorage.clear();
+  </script>
+</body>
+</html>
